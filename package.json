@@ -1,0 +1,30 @@
+{
+  "name": "eslint-plugin-no-loops",
+  "version": "0.1.0",
+  "description": "Disallow loops",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests/index.js",
+    "preversion": "npm test",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buildo/eslint-plugin-no-loops.git"
+  },
+  "author": "buildo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buildo/eslint-plugin-no-loops/issues"
+  },
+  "homepage": "https://github.com/buildo/eslint-plugin-no-loops#readme",
+  "devDependencies": {
+    "eslint": "^1.10.3"
+  },
+  "peerDependencies": {
+    "eslint": ">=0.8.0"
+  }
+}
