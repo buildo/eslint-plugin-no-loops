@@ -3,6 +3,10 @@ It's 2016 and you still use loops?
 
 [![Build Status](https://travis-ci.org/buildo/eslint-plugin-no-loops.svg?branch=master)](https://travis-ci.org/buildo/eslint-plugin-no-loops)
 
+<p align="center">
+  <img src="http://img.memegenerator.io/meme/160120/mr8qya.jpg" />
+</p>
+
 ## Installation
 ```sh
 npm install --save-dev eslint-plugin-no-loops
