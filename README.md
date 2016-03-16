@@ -19,7 +19,10 @@ In your `.eslintrc`:
 {
   "plugins": [
     "no-loops"
-  ]
+  ],
+  "rules": {
+    "no-loops/no-loops": 2
+  }
 }
 ```
 
