@@ -5,7 +5,7 @@ It's 2017 and you still use loops?
 [![npm](https://img.shields.io/npm/v/eslint-plugin-no-loops.svg)](https://www.npmjs.com/package/eslint-plugin-no-loops)
 
 <p align="center">
-  <img src="http://img.memegenerator.io/meme/160120/mr8qya.jpg" />
+  <img src="https://i.imgflip.com/1oa3kd.jpg" title="made at imgflip.com"/> 
 </p>
 
 ## Installation
