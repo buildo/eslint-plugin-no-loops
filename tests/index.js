@@ -50,6 +50,21 @@ ruleTester.run('no-loops', rule, {
       code: 'for (i of [1, 2, 3]) { console.log(i) }',
       parser: 'babel-eslint',
       errors: [ { message: 'loops are not allowed' } ]
+    },
+    {
+      code: 'async function bad() { while (true) { x() } }',
+      parser: 'babel-eslint',
+      errors: [ { message: 'loops are not allowed' } ]
+    },
+    {
+      code: 'async function bad() { while (true) { x() } }',
+      parser: 'babel-eslint',
+      errors: [ { message: 'loops are not allowed' } ]
+    },
+    {
+      code: 'const ok = async () => { for (const x of y) { await x(); for (const z in y) { z() } } }',
+      parser: 'babel-eslint',
+      errors: [ { message: 'loops are not allowed' } ]
     }
   ]
 });
