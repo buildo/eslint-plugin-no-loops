@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/buildo/eslint-plugin-no-loops#readme",
   "devDependencies": {
-    "babel-eslint": "^6.1.0",
-    "eslint": "^2.0.0"
+    "babel-eslint": "8",
+    "eslint": "5"
   },
   "peerDependencies": {
     "eslint": ">=2.0.0"
